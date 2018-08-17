@@ -1,3 +1,17 @@
-p {
-    font-family: cursive
+h1 {
+    text-decoration:strong;
+}
+th {
+    text-align:;
+}
+
+body {
+    background-color:rgb(133, 238, 168);
+}
+hr {
+    border-color: black;
+    border-width: 2px;
+}
+ul {
+    style-list: ;
 }
