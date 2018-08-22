@@ -7,6 +7,7 @@ th {
 
 body {
     background-color:rgb(133, 238, 168);
+    opacity: 0.75px;
 }
 hr {
     border-color: black;
@@ -14,4 +15,7 @@ hr {
 }
 ul {
     style-list: ;
+}
+.liste {
+    font-family: Georgia;
 }
