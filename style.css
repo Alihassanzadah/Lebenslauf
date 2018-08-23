@@ -1,12 +1,26 @@
 h1 {
     text-decoration:strong;
+    text-align: center;
+    border: 2px solid rgb(2, 48, 45);
+    padding: 20px;
+    color: black;
+    margin: 10px auto;
+    background-color: rgba(209, 222, 135, 0.342);
+
+   
+}
+.content {
+    overflow: scroll;
+    padding-top: 20px;
 }
 
 body {
     background-color:rgb(133, 238, 168);
     opacity: 0.75px;
+    text-align: left;
+    padding: 30px;
 }
-hr {
+tbody {
     border-color: black;
     border-width: 2px;
 }
@@ -15,4 +29,16 @@ ul {
 }
 .liste {
     font-family: Georgia;
+}
+#picture {
+    background-color: rgb(14, 106, 211)
+}
+#div {
+    border: 8px solid black; 
+    padding: 40px;
+    height: 500px;
+    width: 800px;
+}
+nav {
+    background-size: cover;
 }
