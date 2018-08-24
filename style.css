@@ -2,22 +2,7 @@ html, body {
     margin: 0;
     padding: 0;
 }
-h1 {
-    
-    text-align: center;
-    border: 1px solid rgb(1, 10, 10);
-    border-collapse: collapse;
-    padding-top: 10px;
-    color: whitesmoke;
-    margin: 0px auto;
-    background-color: rgb(3, 45, 61);
-    position: fixed;
-    width: 100%;
-    opacity: 0.5px;
-    height: 100px;
-    
-
-   
+ 
 }
 .content {
     
@@ -36,6 +21,7 @@ tbody {
 }
 table {
     width: 100%;
+    padding: 20px;
 }
 .liste {
     font-family: Georgia;
@@ -76,10 +62,10 @@ nav {
     padding: 20px 0;
 }
 nav li {
-   color: #fff;
+  color: #fff;
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
-  font-size: 12px;
+  font-size: 20px;
   display: inline-block;
   width: 500px;
   
