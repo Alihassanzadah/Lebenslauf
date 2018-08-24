@@ -1,7 +1,11 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
 h1 {
-    text-decoration:strong;
+    
     text-align: center;
-    border: 2px solid rgb(1, 10, 10);
+    border: 1px solid rgb(1, 10, 10);
     border-collapse: collapse;
     padding-top: 10px;
     color: whitesmoke;
@@ -36,21 +40,23 @@ table {
 .liste {
     font-family: Georgia;
 }
-#picture {
-    background-color: rgb(14, 106, 211)
+
 }
-#div {
-    border: 8px solid black; 
+#div { 
     padding: 40px;
     height: 500px;
     width: 800px;
     position: relative;
 }
 header {
-    background-size: cover;
-    padding-bottom: 80px;
-    padding-top: 1px;
-    margin: 0 auto;
+    background-color: rgb(18, 37, 36);
+    position: fixed;
+    top: 0px;
+    right: 3px;
+    left: 1px;
+    width: 100%;
+    color: white;
+    z-index: 5px;
 }
 .Name {
     text-align: left;
@@ -60,4 +66,25 @@ h2 {
 }
 .welcome {
     position: relative;
+}
+tr {
+    padding:20px;
+    position: relative;
+}
+nav {
+    margin: 0; 
+    padding: 20px 0;
+}
+nav li {
+   color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  display: inline-block;
+  width: 500px;
+  
+}
+th, td {
+    position: relative;
+    width: 40%;
 }
