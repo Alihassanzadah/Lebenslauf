@@ -55,6 +55,7 @@ h2 {
 tr {
     padding:20px;
     position: relative;
+    
 }
 nav {
     margin: 0; 
@@ -71,10 +72,12 @@ nav li {
   
 }
 th, td {
-    position: relative;
+    
     width: 40%;
     padding: 8px;
     line-height: 1.4;
+    border: 1px solid burlywood;
+    background-color: azure;
 }
 .address {
     padding: 20px;
