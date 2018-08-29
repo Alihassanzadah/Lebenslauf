@@ -16,12 +16,13 @@ body {
     font-family: Georgia;
 }
 tbody {
-    border: 1px solid black;
-    border-width: 2px;
+    
 }
 table {
     width: 100%;
     padding: 30px;
+    border-collapse: collapse;
+    width: 80%;
 }
 .liste {
     font-family: Georgia;
@@ -76,7 +77,7 @@ th, td {
     width: 40%;
     padding: 8px;
     line-height: 1.4;
-    border: 1px solid burlywood;
+    border-bottom: 1px solid burlywood;
     background-color: azure;
 }
 .address {
