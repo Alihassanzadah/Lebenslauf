@@ -16,7 +16,29 @@ body {
     background-color: #F5E2E5;
     text-align: left;
     font-family: Helvetica, "Helvetica New", ‘Roboto’, sans-serif !important;
-    
+  
+}
+
+.textanimate{
+    font-size: 20px;
+    color: rgb(241, 241, 232);
+    height: 400px;
+    background: #609f80;
+    width: 100%;
+    text-align: center;
+    border-bottom: 2px solid burlywood;
+}
+#str {
+    padding-top: 100px;
+
+}
+.animate{
+    padding-top: 80px;
+}
+#personalien {
+    display: inline-block;
+    left: 0;
+    width: 200px;
 }
 #textcenter {
     width: 70%;
@@ -27,6 +49,7 @@ h1{
     margin: 0px;
 }
 .hoverTable {
+    box-shadow: 20px 80px 100px rgba(0, 0, 0, 0.5);
     padding: 30px;
     border-collapse: collapse;
     width: 80%;
@@ -58,10 +81,14 @@ header {
     cursor: pointer;
     padding:10px;
     position: relative;
-    background-color: rgb(84, 129, 10); 
+    background-color: #609f80; 
 }
 
 nav {
+    z-index:1;
+    top: 0;
+    position: fixed;
+    width:100%;
     margin: 0; 
     padding: 15px;
     background: #013F32;
