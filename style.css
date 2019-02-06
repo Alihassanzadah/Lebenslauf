@@ -1,6 +1,7 @@
 html, body {
     margin: 0;
     padding: 0;
+    font-family: Helvetica, 'Helvetica New', ‘Roboto’, sans-serif !important;
 }
  #app {
 font-size: 25px;
@@ -30,6 +31,7 @@ body {
 }
 #str {
     padding-top: 100px;
+    color: #013F32;
 
 }
 .animate{
@@ -104,8 +106,8 @@ nav li {
   width: 600px;
   
 }
-th, td {
-    
+th, td:nth-child(even) {
+    background-color: #f2f2f2;
     width: 40%;
     padding: 8px;
     line-height: 1.4;
@@ -117,4 +119,7 @@ th, td {
 }
 .number{
     display: inline;
+}
+td:nth-child(even) {
+    background-color: #609f80;
 }
